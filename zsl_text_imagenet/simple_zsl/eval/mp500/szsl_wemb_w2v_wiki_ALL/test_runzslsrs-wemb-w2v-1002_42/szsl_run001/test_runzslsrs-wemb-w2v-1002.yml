@@ -1,0 +1,11 @@
+SimpleZSL:
+  batch_size: 512
+  epochs: 2
+  margin: 1.0
+  optim:
+    beta_1: 0.5
+    beta_2: 0.999
+    epsilon: 1.0e-08
+    lr: 0.00010106100271021515
+  target_space_size: 1024
+exp_name: szsl_run001

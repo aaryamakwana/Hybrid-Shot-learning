@@ -1,0 +1,11 @@
+{
+    "config": "runzslrs-w2v1000.yml",
+    "env_config": "PATH/configs/env_config.yml",
+    "seed": 42,
+    "test_split": "mp500",
+    "eval_batch_size": 128,
+    "overwrite": [
+        "env.aux_feats=PATH/data/zsl/synthetized_classifiers_for_zsl/ImageNet_w2v/imagenet_w2v_feats_ALL.pkl",
+        "env.output_dir=runzslrs-w2v1000_42"
+    ]
+}

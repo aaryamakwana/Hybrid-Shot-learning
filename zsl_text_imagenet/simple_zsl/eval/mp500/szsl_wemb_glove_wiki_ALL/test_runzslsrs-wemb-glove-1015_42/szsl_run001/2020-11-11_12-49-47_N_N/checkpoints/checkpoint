@@ -1,0 +1,2 @@
+model_checkpoint_path: "simple_zsl_mp500"
+all_model_checkpoint_paths: "simple_zsl_mp500"

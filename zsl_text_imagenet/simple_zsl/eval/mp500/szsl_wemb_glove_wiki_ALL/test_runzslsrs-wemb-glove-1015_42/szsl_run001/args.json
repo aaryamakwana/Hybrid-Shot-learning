@@ -1,0 +1,11 @@
+{
+    "config": "test_runzslsrs-wemb-glove-1015.yml",
+    "env_config": "PATH/configs/env_config.yml",
+    "seed": 42,
+    "test_split": "mp500",
+    "eval_batch_size": 128,
+    "overwrite": [
+        "env.aux_feats=PATH/encode_wiki_text/matching_v4/test_sets/wemb_glove_wiki_ALL_mp500/ImageNet/WordEmbeddings_Lo_glove.840B.300d_ImageNet_trainval_and_mp500_classes.pkl",
+        "env.output_dir=test_runzslsrs-wemb-glove-1015_42"
+    ]
+}

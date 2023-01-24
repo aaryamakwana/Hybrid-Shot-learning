@@ -1,0 +1,11 @@
+{
+    "config": "runzslsrs-xxl1000.yml",
+    "env_config": "PATH/configs/env_config.yml",
+    "seed": 42,
+    "test_split": "mp500",
+    "eval_batch_size": 128,
+    "overwrite": [
+        "env.aux_feats=PATH/encode_wiki_text/matching_v4/test_sets/albert-base-v2_wiki_ALL_mp500/ImageNet/ALBERT_ImageNet_trainval_and_mp500_classes.pkl",
+        "env.output_dir=runzslsrs-xxl1000_42"
+    ]
+}
